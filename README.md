@@ -17,11 +17,13 @@ A desktop application for running Google AI Edge (LiteRT) models locally with a 
 - **WebSocket Streaming** — Real-time token-by-token generation
 - **Import Custom Models** — Bring your own `.tflite` models
 - **Native Desktop Window** — pywebview native GUI with browser fallback
-- **Debian Package** — One-click install via `.deb`
+- **Debian Package** — One-click install via `.deb` ([download latest release](https://github.com/Deep007h/gallery-edge-project/releases))
 
 ## Quick Start
 
 ### Option 1: Install via .deb (Debian/Ubuntu)
+
+Download `gallery-edge_1.0.0_amd64.deb` from the [Releases page](https://github.com/Deep007h/gallery-edge-project/releases), then:
 
 ```bash
 sudo dpkg -i gallery-edge_1.0.0_amd64.deb
@@ -53,7 +55,6 @@ gallery-edge-project/
 ├── test_engine.py          # Inference engine tests
 ├── model_allowlist.json    # Curated model registry
 ├── make_deb.sh             # .deb package builder script
-├── gallery-edge_1.0.0_amd64.deb  # Pre-built Debian package
 ├── frontend/               # Vite + React UI
 │   ├── src/                # React components & styles
 │   ├── dist/               # Built production assets
