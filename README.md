@@ -1,11 +1,21 @@
+<div align="center">
+
 # Google AI Edge Gallery
 
-A desktop application for running Google AI Edge (LiteRT) models locally with a modern web UI. Browse, download, and chat with LLMs — all on-device, no cloud dependency.
+**A 1:1 Linux desktop replica of Google's on-device AI app — run LLMs locally, fully offline.**
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Platform](https://img.shields.io/badge/Linux-AMD64-FF6600?logo=linux&logoColor=white)
+<p>
+  <img src="https://img.shields.io/github/stars/Deep007h/gallery-edge-project?style=for-the-badge&logo=github&color=FFD700" alt="Stars" />
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Linux-AMD64-FF6600?style=for-the-badge&logo=linux&logoColor=white" alt="Platform" />
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="License" />
+</p>
+
+![App Screenshot](screenshot.png)
+
+</div>
 
 ---
 
@@ -18,6 +28,8 @@ A desktop application for running Google AI Edge (LiteRT) models locally with a 
 - **Import Custom Models** — Bring your own `.tflite` models
 - **Native Desktop Window** — pywebview native GUI with browser fallback
 - **Debian Package** — One-click install via `.deb` ([download latest release](https://github.com/Deep007h/gallery-edge-project/releases))
+- **Dark/Light Theme** — Toggle between warm cream or dark mode
+- **Model Benchmarking** — Test model performance on your hardware
 
 ## Quick Start
 
@@ -37,7 +49,7 @@ gallery-edge
 pip install -r requirements.txt
 python main.py
 
-# Frontend (optional, for development)
+# Frontend (development)
 cd frontend
 npm install
 npm run dev
@@ -81,6 +93,17 @@ gallery-edge-project/
 - **Desktop:** pywebview (native window)
 - **Packaging:** dpkg-deb (.deb)
 
-## License
+## Why Gallery Edge?
 
-MIT
+- **100% Offline & Private** — All inference runs locally. Zero data leaves your machine.
+- **Drop-in Google AI Edge Replica** — Same UI, same features, same models — but for Linux desktop.
+- **No GPU Required** — Runs on CPU, with GPU acceleration when available.
+- **Open Source** — MIT license. Fork, modify, contribute.
+
+---
+
+<div align="center">
+
+**If you find this project useful, consider [starring it on GitHub](https://github.com/Deep007h/gallery-edge-project) ⭐**
+
+</div>
